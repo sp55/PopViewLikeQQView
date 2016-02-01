@@ -15,6 +15,7 @@
 		8465392C1C5FA93E00DFF845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8465392A1C5FA93E00DFF845 /* LaunchScreen.storyboard */; };
 		846539371C5FA93E00DFF845 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846539361C5FA93E00DFF845 /* TestTests.m */; };
 		846539421C5FA93E00DFF845 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846539411C5FA93E00DFF845 /* TestUITests.m */; };
+		846539511C5FA95900DFF845 /* PopViewLikeQQView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846539501C5FA95900DFF845 /* PopViewLikeQQView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8465393D1C5FA93E00DFF845 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846539411C5FA93E00DFF845 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		846539431C5FA93E00DFF845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8465394F1C5FA95900DFF845 /* PopViewLikeQQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewLikeQQView.h; sourceTree = "<group>"; };
+		846539501C5FA95900DFF845 /* PopViewLikeQQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewLikeQQView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				846539201C5FA93D00DFF845 /* AppDelegate.m */,
 				846539221C5FA93D00DFF845 /* ViewController.h */,
 				846539231C5FA93D00DFF845 /* ViewController.m */,
+				8465394F1C5FA95900DFF845 /* PopViewLikeQQView.h */,
+				846539501C5FA95900DFF845 /* PopViewLikeQQView.m */,
 				846539251C5FA93D00DFF845 /* Main.storyboard */,
 				846539281C5FA93E00DFF845 /* Assets.xcassets */,
 				8465392A1C5FA93E00DFF845 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				846539241C5FA93D00DFF845 /* ViewController.m in Sources */,
 				846539211C5FA93D00DFF845 /* AppDelegate.m in Sources */,
+				846539511C5FA95900DFF845 /* PopViewLikeQQView.m in Sources */,
 				8465391E1C5FA93D00DFF845 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
